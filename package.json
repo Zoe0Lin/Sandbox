@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "test":  "jest src/app.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zoe0Lin/Sandbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zoe0Lin/Sandbox/issues"
+  },
+  "homepage": "https://github.com/Zoe0Lin/Sandbox#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
+  }
+}
